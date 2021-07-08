@@ -24,7 +24,7 @@ class EmpresaServiceTest {
     @MockBean
     private val empresaRepository: EmpresaRepository? = null
 
-    private val CNPJ = "51463645000100"
+    private val CNPJ: String = "51463645000100"
 
     @BeforeEach
     @Throws(Exception::class)
